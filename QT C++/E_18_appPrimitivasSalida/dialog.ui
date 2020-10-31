@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1049</width>
+    <height>651</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1049</width>
+    <height>651</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1049</width>
+    <height>651</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Primitivas de Salida</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QGroupBox" name="LineaDDA">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>490</y>
+     <width>301</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Linea DDA</string>
+   </property>
+   <widget class="QSpinBox" name="spinBox_6">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>98</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>473</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Y:</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_4">
+    <property name="geometry">
+     <rect>
+      <x>51</x>
+      <y>60</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>1049</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>X:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>59</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(211, 211, 211);</string>
+    </property>
+    <property name="text">
+     <string>LineaDDA</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>31</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Punto 2:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>215</x>
+      <y>97</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(211, 211, 211);</string>
+    </property>
+    <property name="text">
+     <string>Color</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_7">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>98</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>473</number>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>1049</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>41</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Punto 1:</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>490</y>
+     <width>281</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Circulos</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>261</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Circulo Pitagoras</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>CENTRO X:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QSpinBox" name="spinBox">
+       <property name="maximum">
+        <number>1049</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>Circulo Polares</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>CENTRO Y:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QSpinBox" name="spinBox_2">
+       <property name="maximum">
+        <number>473</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>Circulo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Radio:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QSpinBox" name="spinBox_3">
+       <property name="maximum">
+        <number>1043</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>490</y>
+     <width>261</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Espirales</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>231</width>
+      <height>95</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <item row="0" column="0" rowspan="2">
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>Espiral 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>FACTOR:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox">
+       <property name="decimals">
+        <number>1</number>
+       </property>
+       <property name="minimum">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>0.100000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>Theta</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+       <property name="decimals">
+        <number>1</number>
+       </property>
+       <property name="minimum">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>0.100000000000000</double>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>Espiral 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Radio</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+       <property name="decimals">
+        <number>1</number>
+       </property>
+       <property name="minimum">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="singleStep">
+        <double>0.100000000000000</double>
+       </property>
+       <property name="value">
+        <double>0.100000000000000</double>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1049</width>
+    <height>495</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Linea DDA y Circulo</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QGroupBox" name="LineaDDA">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>340</y>
+     <width>301</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Linea DDA</string>
+   </property>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>281</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Punto 1:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Punto 2:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>X:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLineEdit" name="lineEdit_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(211, 211, 211);</string>
+       </property>
+       <property name="text">
+        <string>LineaDDA</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Y:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="lineEdit_4">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(211, 211, 211);</string>
+       </property>
+       <property name="text">
+        <string>Color</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>340</y>
+     <width>281</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Circulos</string>
+   </property>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>261</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Circulo Pitagoras</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>CENTRO X:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QSpinBox" name="spinBox">
+       <property name="maximum">
+        <number>900</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="text">
+        <string>Circulo Polares</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>CENTRO Y:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QSpinBox" name="spinBox_2">
+       <property name="maximum">
+        <number>200</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="text">
+        <string>Circulo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Radio:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QSpinBox" name="spinBox_3">
+       <property name="maximum">
+        <number>150</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>340</y>
+     <width>261</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Espirales</string>
+   </property>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>231</width>
+      <height>92</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <property name="spacing">
+      <number>15</number>
+     </property>
+     <item row="0" column="2">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox">
+       <property name="decimals">
+        <number>1</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0" rowspan="2">
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>Espiral 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" rowspan="2">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>Theta</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+       <property name="decimals">
+        <number>1</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>Radio</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" rowspan="2">
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>Espiral 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2" rowspan="2">
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+       <property name="decimals">
+        <number>1</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>FACTOR:</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
