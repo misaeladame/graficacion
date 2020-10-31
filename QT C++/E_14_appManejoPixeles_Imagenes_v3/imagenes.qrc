@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>el-agua-de-la-pecera-2.jpg</file>
+        <file>paisaje.jpg</file>
+    </qresource>
+</RCC>
