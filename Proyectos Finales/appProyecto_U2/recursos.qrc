@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/sounds">
+        <file>Cuphead OST - Botanic Panic [Music].mp3</file>
+        <file>Shoot.mp3</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>Player.png</file>
+        <file>Shoot.png</file>
+        <file>background.bmp</file>
+        <file>enemy3.png</file>
+        <file>enemy2.png</file>
+        <file>enemy1.png</file>
+        <file>enemy5.png</file>
+        <file>enemy4.png</file>
+        <file>Coin.png</file>
+        <file>icon.jpg</file>
+    </qresource>
+</RCC>
